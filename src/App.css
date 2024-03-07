@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.Container{
+    /* width: 1200px; */
+    width: 80%;
+    margin:  auto;
+}
+.Card-all{
+    /* width: 300px; */
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.Card-Color{
+    background-color: #2D2013;
+
+    
+}
+.Card img{
+    width: 300px;
+}
+.Card p{
+    color: #D57D1F;
+    
+    text-align: center;
+}
+.Card:hover p{
+    color: #fdbb7a;
+}
+.NavLink{
+    text-decoration: none;
+}
+.Detail{
+    background-color: #2D2013;
+    padding: 70px 0px;
+}
+.Detail-in{
+    display: flex;
+    gap: 20px;
+}
+h1{
+    padding: 40px 0px;
+    color: #FFFFFF;
+}
+ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px ;
+    padding-top: 20px;
+    align-items: center;
+    padding: 10px 0px;
+}
+ul p{
+    text-align: center;
+}
+ul p{
+    color: #D57D1F;
+    
+    text-align: center;
+}
+ul p:hover{
+    color: #fdbb7a;
+}
+ul img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+h2{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px 0px;
+}
+#strInstructions{
+    width: 900px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px 0px;
+    font-size: 16px;
+    
+}
+.Detail button img{
+    width: 40px;
+    color: white;
+}
+.Detail button{
+    background: none;
+    border: none;
+    color: white;
+}
